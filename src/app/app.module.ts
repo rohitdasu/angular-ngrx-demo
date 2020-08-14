@@ -21,7 +21,7 @@ import { reducer } from "../app/reducers/userlist.reducers";
     IonicModule.forRoot(),
     AppRoutingModule,
     BrowserAnimationsModule,
-    StoreModule.forRoot({ users: reducer }),
+    StoreModule.forRoot({ user: reducer }),
   ],
   providers: [
     StatusBar,

@@ -1,7 +1,5 @@
 import { Component } from "@angular/core";
-
 import { Store } from "@ngrx/store";
-import { User } from "../models/user";
 import { AppState } from "../state/app.state";
 import * as UserAction from "../actions/userlist.actions";
 
