@@ -14,9 +14,11 @@
   </ion-header>
 
   <ion-list>
-    <ion-item>
+    <ion-item *ngFor="let n of users | async">
       <ion-avatar slot="start">
-        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg" />
+        <img
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+        />
       </ion-avatar>
       <ion-label>
         <h2>Finn</h2>
