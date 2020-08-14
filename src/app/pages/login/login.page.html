@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <div class="panel">
+      <ion-icon class="logo" name="heart"></ion-icon>
+      <br />
+      <ion-label class="texthead">KISSAAP</ion-label>
+    </div>
+
+    <mat-form-field class="form" style="margin-top: 90px;">
+      <mat-label>
+        Username
+      </mat-label>
+      <input style="width: 100%;" matInput />
+    </mat-form-field>
+    <br />
+    <mat-form-field class="form">
+      <mat-label>
+        Password
+      </mat-label>
+      <input style="width: 100%;" matInput />
+    </mat-form-field>
+    <button
+      color="primary"
+      mat-raised-button
+      class="button"
+      (click)="gotoTab()"
+    >
+      LOGIN
+    </button>
+  </ion-card>
+</ion-content>

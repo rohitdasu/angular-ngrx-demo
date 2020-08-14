@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Users List
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,20 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Users List</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Finn</h2>
+        <h3>I'm a big deal</h3>
+        <p>Listen, I've had a pretty messed up day...</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>

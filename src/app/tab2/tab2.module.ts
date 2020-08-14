@@ -5,13 +5,16 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab2Page } from './tab2.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
-
+import { MatInputModule } from "@angular/material/input";
+import { MatButtonModule } from "@angular/material/button";
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 
 @NgModule({
   imports: [
     IonicModule,
+    MatInputModule,
     CommonModule,
+    MatButtonModule,
     FormsModule,
     ExploreContainerComponentModule,
     Tab2PageRoutingModule
