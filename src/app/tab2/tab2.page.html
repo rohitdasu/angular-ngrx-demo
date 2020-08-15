@@ -24,19 +24,19 @@
         <mat-label>
           First Name
         </mat-label>
-        <input matInput />
+        <input [(ngModel)]=user.first_name matInput />
       </mat-form-field>
       <mat-form-field class="form">
         <mat-label>
           Last Name
         </mat-label>
-        <input matInput />
+        <input [(ngModel)]=user.last_name matInput />
       </mat-form-field>
       <mat-form-field class="form">
         <mat-label>
           Email
         </mat-label>
-        <input matInput />
+        <input [(ngModel)]=user.email matInput />
       </mat-form-field>
     </ion-card-content>
     <ion-card-content>
