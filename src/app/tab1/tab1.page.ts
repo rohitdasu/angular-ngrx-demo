@@ -13,10 +13,7 @@ import { AppState } from "../state/app.state";
 export class Tab1Page implements OnInit {
   users: Observable<User[]>;
   constructor(private store: Store<AppState>) {
-    
-  }
-  ngOnInit(){
     this.users = this.store.select("users");
-    console.log(this.users);
   }
+  ngOnInit() {}
 }

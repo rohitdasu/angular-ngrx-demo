@@ -9,6 +9,12 @@ const initialState = [
     email: "rahul@yopmail.com",
     avatar: "www.google.com",
   },
+  {
+    first_name: "Rohit",
+    last_name: "Dasu",
+    email: "rohit@yopmail.com",
+    avatar: "www.google.com",
+  },
 ];
 
 export function reducer(
